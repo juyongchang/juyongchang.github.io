@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">CVLAB @ KWU</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.nav == 'home' %} aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/research/' | relative_url }}"{% if page.nav == 'research' %} aria-current="page"{% endif %}>Research</a>
+      <a href="{{ '/students/' | relative_url }}"{% if page.nav == 'students' %} aria-current="page"{% endif %}>Students</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.nav == 'publications' %} aria-current="page"{% endif %}>Publications</a>
+    </nav>
+  </div>
+</header>

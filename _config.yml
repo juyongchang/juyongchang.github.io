@@ -1,0 +1,12 @@
+title: CVLAB @ KWU
+description: Computer Vision Lab at Kwangwoon University
+url: "https://juyongchang.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
